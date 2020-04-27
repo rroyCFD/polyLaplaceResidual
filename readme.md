@@ -43,12 +43,12 @@ Polynomial Laplace residual returns residual of the field (instead of filtered f
 
 ### Make
 
-*Location:* $WM_PROJECT_USER_DIR/src/TurbulenceModels/turbulenceModels/LES/LESfilters/polyLaplaceFilter
+*Location:* $WM_PROJECT_USER_DIR/src/TurbulenceModels/turbulenceModels/LES/LESfilters/polyLaplaceResidual
 
 #### files
 	
 	LESfilters = LES/LESfilters
-	$(LESfilters)/polyLaplaceFilter/polyLaplaceFilter.C
+	$(LESfilters)/polyLaplaceResidual/polyLaplaceResidual.C
 
 	LIB = $(FOAM_USER_LIBBIN)/libturbulenceModels_$(USER)
 
